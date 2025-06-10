@@ -1,0 +1,92 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background: #fff;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.login-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 32px 24px;
+  text-align: center;
+  width: 320px;
+}
+
+.app-title {
+  color: #222;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.user-profile {
+  margin: 20px 0;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.user-name {
+  color: #222;
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+.user-email {
+  color: #555;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+}
+
+.login-button, .logout-button {
+  background: blue;
+  color: white;
+  border: 1px solid #ccc;
+  padding: 10px 0;
+  border-radius: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.logout-button {
+  background: #eee;
+  color: lightseagreen;
+  border: 1px solid #ccc;
+}
+
+.session-expired {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 32px 24px;
+  text-align: center;
+  width: 320px;
+}
+
+.session-expired h1 {
+  color: #b00;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.session-expired p {
+  color: #555;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+}
